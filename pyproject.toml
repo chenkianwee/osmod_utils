@@ -16,7 +16,8 @@ classifiers = ["License :: OSI Approved :: GNU General Public License v3 (GPLv3)
                "Operating System :: OS Independent"]
 dependencies = ['geomie3d>=0.0.10',
                 'openstudio>=3.10.0',
-                'ladybug-core>=0.44.30'
+                'ladybug-core>=0.44.30',
+                'ifc_utils>=0.0.5'
                 ]
 
 [project.optional-dependencies]
