@@ -33,7 +33,7 @@ import openstudio
 from openstudio import model as osmod
 
 import ifc_utils.ifcopenshell_utils as ifcopenshell_utils
-import settings
+from . import settings
 
 from ladybug.epw import EPW
 
